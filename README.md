@@ -1,7 +1,6 @@
 # mikanos
-MikanOS: An Educational Operating System
+original: https://github.com/uchan-nos/mikanos
 
-# Files
-
-- MikanLoaderPkg
-    - The MikanOS loader as a UEFI Application
+# Build
+- kernel: run `Make` under kernel directory
+- loader: run `edksetup.sh` and `build` in ~/edk2 (which is not included in this repo)
